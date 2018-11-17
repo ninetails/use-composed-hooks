@@ -88,6 +88,12 @@ function MyComponent() {
 
 Will render `7 - 7` and after clicking once, will render `25 - 7` because the second one come from state and it was not changed.
 
+## But a reminder
+
+Do not forget about React Hook law:
+
+> Do not put a hook inside an `condition` or `dynamic loops` (loops without a fixed length).
+
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
