@@ -12,7 +12,6 @@ const TARGET_PATH = 'dist'
 
 function updateJson (input) {
   const {
-    dependencies,
     devDependencies,
     main,
     private: priv,
@@ -23,8 +22,7 @@ function updateJson (input) {
 
   return {
     ...rest,
-    main: 'index.js',
-    peerDependencies: dependencies
+    main: 'index.js'
   }
 }
 

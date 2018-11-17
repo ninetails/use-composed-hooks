@@ -46,11 +46,9 @@
     "jest-dom": "^2.1.1",
     "jest-silent-reporter": "^0.1.1",
     "prop-types": "^15.6.2",
+    "react": "^16.7.0-alpha.2",
     "react-dom": "^16.7.0-alpha.2",
     "react-testing-library": "^5.2.3"
-  },
-  "dependencies": {
-    "react": "^16.7.0-alpha.2"
   },
   "husky": {
     "hooks": {

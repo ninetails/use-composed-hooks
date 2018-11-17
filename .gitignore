@@ -156,5 +156,8 @@ $RECYCLE.BIN/
 
 ### Project ###
 
+# npm
+package-lock.json
+
 # Build
 dist
