@@ -56,7 +56,7 @@ So just install it
 
 (Currently it's based on `react@^16.7.0-alpha.2`, so it may change... or just use it, because it don't depends on React at all, it's just a reducer that run over functions)
 
-## Example mixing functions with hooks
+## Example composing functions and hooks
 
 ```js
 function doubleIt(num) {
