@@ -1,0 +1,10 @@
+language: node_js
+node_js:
+  - stable
+  - 'lts/*'
+install:
+  - npm install --ignore-scripts
+script:
+  - npm audit
+  - npm run lint
+  - npm test
